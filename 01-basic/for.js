@@ -3,8 +3,8 @@ function setup() {
   background("#1bb1f5");
 }
 function draw() {
-  t1 = createVector(10, 40);
-  t2 = createVector(411, 500);
+  var t1 = createVector(10, 40);
+  var t2 = createVector(411, 500);
   line(t1.x, t1.y, t2.x, t2.y);
   translate(12, 54);
   line(t1.x, t1.y, t2.x, t2.y);
