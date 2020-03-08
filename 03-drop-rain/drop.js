@@ -8,7 +8,6 @@ function Drop() {
 Drop.prototype.show = function() {
   let tick = map(this.z, 0, 20, 1, 3);
   strokeWeight(tick);
-
   line(this.x, this.y, this.x, this.y + length);
   stroke(255);
 };
